@@ -60,5 +60,8 @@ $ git push origin gyuri/hw1
 
 --끝!!!--
 
+## 참고자료
+
+[html과 css 연동하는 법](https://m.blog.naver.com/shino1025/221320924962)
 
 
