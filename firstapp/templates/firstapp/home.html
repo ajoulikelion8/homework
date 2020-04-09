@@ -1,0 +1,91 @@
+{% load static %}
+<!--html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        
+
+        <link rel="stylesheet" href="{% static 'CSS/style.CSS '%}">
+        <!-- 유튜브 영상 자동재생
+        <script src="http://www.youtube.com/player_api"></script>
+        <script type="text/javascript">
+            var player;
+            function onYouTubePlayerAPIReady(){
+                player = new YT.Player("player",{
+                    width: "100%",
+                    videoId: "ebIguM-oOF8",
+                    events: {
+                        onReady: onPlayerReady,
+                        onStateChange: onPlayerStateChange
+                    }
+                })
+            }
+
+            // autoplay video
+            function onPlayerReady(event) {
+                event.target.playVideo();
+            }
+
+            function onPlayerStateChange(event){
+                if (event.data === 0) {
+                    window.location = "http://127.0.0.1:8000/"
+                }
+            }
+        </script> -->
+    </head>
+    <body>
+        <div class = "container">
+
+            <div class = "header">
+                <div class="header_top">
+                    네이버 클론코딩
+                </div>
+                <div class="header_bottom">
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                    <div class="navi">재환</div>
+                </div>
+            </div>
+
+            <div class = "content">
+                <div class="content_left">
+                    <div class="left_box1">
+                        광고
+                    </div>
+                    <div class="left_box2">
+                        기사
+                    </div>
+                    <div class="left_box3">
+
+                    </div>
+                </div>
+                <div class="content_right">
+                    <div class="right_box1">
+                        로그인
+                    </div>
+                    <div class="right_box2">
+                        <!-- <div id="player"></div> -->
+                        자질구래한것들
+                    </div>
+                    <div class="right_box3">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class = "footer">
+                <h2>여기가 푸터</h2>
+            </div>
+        </div>
+    </body>
+</html>
