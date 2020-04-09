@@ -15,15 +15,15 @@
 
 1. static 폴더를 만들어주고 하위에 css폴더를 만들어 준 후 style.css 파일을 만들어주자
 
-   ![image-20200409203029419](/Users/uju_sy/Library/Application Support/typora-user-images/image-20200409203029419.png)
+   <img width="153" alt="image-20200409203029419" src="https://user-images.githubusercontent.com/49120090/78891015-9ff24700-7aa1-11ea-96c4-6ae350bbc51a.png">
 
 2. Setting.py 변경~~
 
-   ![image-20200409203127732](/Users/uju_sy/Library/Application Support/typora-user-images/image-20200409203127732.png)
+   <img width="372" alt="image-20200409203127732" src="https://user-images.githubusercontent.com/49120090/78891030-aa144580-7aa1-11ea-9e3e-710688db561b.png">
 
    맨 밑에 추가해주자
 
 3. html파일 안에 정적 파일의 경로에 있는 모든 파일을 불러올 수 있도록 해주자.
 
-   ![image-20200409203259443](/Users/uju_sy/Library/Application Support/typora-user-images/image-20200409203259443.png)
+   <img width="584" alt="image-20200409203259443" src="https://user-images.githubusercontent.com/49120090/78891038-b0a2bd00-7aa1-11ea-94c3-b97049d708fb.png">
 
