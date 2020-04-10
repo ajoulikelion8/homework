@@ -1,0 +1,41 @@
+.container {
+    display: grid;
+    position: relative;
+    margin: auto;
+    grid-template-areas: "header"
+        "content"
+        "footer";
+    grid-template-rows: 1fr 6fr 2fr;
+    height: 1000px;
+    display:b
+
+}
+
+.header {
+    background-color: blue;
+
+}
+
+.main {
+    background-color: white;
+}
+
+.footer {
+    background-color: gray;
+    display: block;
+}
+
+nav {
+    background-color: white;
+    border: black 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    display: inline-block;
+    color: whitesmoke;
+}
