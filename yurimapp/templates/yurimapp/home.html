@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-top">
+                <h1>naver clone coding</h1>
+                검색 : <input type="text" name="find">
+            </div>
+            <div class="header-bottom">
+                <div class="navi">호연</div>
+                <div class="navi">재환</div>
+                <div class="navi">광일</div>
+                <div class="navi">승욱</div>
+                <div class="navi">규리</div>
+                <div class="navi">수훈</div>
+                <div class="navi">주연</div>
+                <div class="navi">유림</div>
+                <div class="navi">소연</div>
+                <div class="navi">영윤</div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-left">
+                <div class="content-left-top">광고</div>
+                <div class="content-left-bottom">기사</div>
+            </div>
+            <div class="content-right">
+                <div class="content-right-top">
+                    <form action="전송받을 대상">
+                        아이디 : <input type="text" name="myid">
+                        비밀번호 : <input type="text" name="mypw">
+                        <input type="submit">
+                    </form>
+                </div>
+
+                <div class="content-right-bottom">그외</div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2>여기가 푸터</h2>
+        </div>
+    </div>
+</body>
+
+</html>
